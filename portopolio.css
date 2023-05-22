@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.wanda{
+    height: 100vh;
+    width: 100%;
+    background-image: url("/IVE\ -\ Wonyoung.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: rgb(238, 149, 158);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color:aquamarine;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 25px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color:rgb(238, 149, 158);
+    transition: .4s;
+}
+.btn{
+    background-color: aquamarine;
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transfrom .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color:white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100px;
+    position: relative;
+}
+.newslatter{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid aquamarine;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.newslatter2{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: 2px solid white;
+    padding: 10px 50px 10px 10px;
+    border-radius: 50px;
+    background-color: aquamarine;
+    color: white;
+    box-shadow: 0px 0px 5px white, 0px 0px 15px #858585;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.about{
+    padding: 100px 0px;
+    background-color: pink;
+}
+.about img{
+    height: auto;
+    width: 430px;
+    padding: auto;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+color: white;
+letter-spacing: 2px;
+font-size: 22px;
+margin-bottom: 25px;
+text-transform: capitalize;
+}
+.about-text p{
+    color: purple;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: white;
+    color: aquamarine;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    transition: .2s;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: pink;
+    border: 2px solid;
+    cursor: pointer;   
+}
+.service{
+    background: wheat;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: pink;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: white;
+}
+h5{
+    color: white;
+    font-size:  23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: purple;
+    font-size: 10px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: white;
+    color: aquamarine;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    transition: .2s;
+    border-radius: 20px;
+}
+.card .button:hover{
+    background-color: pink;
+    border: 2px solid;
+    cursor: pointer;   
+    transform: scale(1.2);
+    transition: .3s;
+}
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: rgb(240, 220, 136);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact-me .button-two{
+    background-color: rgb(251, 211, 198);
+    color: rgb(110, 166, 138);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    transition: .2s;
+    border-radius: 20px;
+}
+.contact-me .button-two:hover{
+    background-color:white;
+    border: 2px solid;
+    cursor: pointer;   
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: rgb(110, 166, 138);
+    margin-bottom: 2opx;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social{
+    display: flex;
+
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(254, 255, 217);
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: rgb(238, 149, 158);
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.end{
+    position: absolute;
+    color:rgb(110, 166, 138);
+    bottom: 35px;
+    font-size: 12px;
+}
